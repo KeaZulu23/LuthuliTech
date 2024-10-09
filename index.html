@@ -26,6 +26,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     .team-member {
       position: relative;
@@ -52,6 +53,24 @@
     }
     .team-member:hover .team-description {
       opacity: 1;
+    }
+
+     /* Custom CSS to center align logos */
+     .logo-section {
+      padding: 50px 0;
+      text-align: center;
+    }
+    .logo-section h2 {
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+    .logo-section img {
+      max-width: 150px;
+      margin: 15px;
+      transition: transform 0.3s ease;
+    }
+    .logo-section img:hover {
+      transform: scale(1.1);
     }
   </style>
 </head>
@@ -276,6 +295,38 @@
 
       </div>
     </section>End Services Section -->
+
+    <section class="logo-section">
+      <h2>Our Clients</h2>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-6 col-md-3">
+            <img src="assets/img/clients/fiks.png" alt="Client 1" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://www.ingonyamatrust.org.za/wp-content/uploads/2019/05/cropped-cropped-ITB-LOGO-REVISED-MAY-2019-1.png" alt="Client 2" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://www.enpc.co.sz/logo/ENPC_Logo.png" alt="Client 3" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://www.petrosa.co.za/img/logo-default-slim.png" alt="Client 4" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://www.africanpg.co.za/img/apg-01.png" alt="Client 5" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://movingforward226.co.za/wp-content/uploads/2022/09/cropped-moving-forward-12-170x70.png" alt="Client 6" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://ideationlab.co.za/wp-content/uploads/2024/06/ID-logo-150x150.png" alt="Client 7" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://www.unplugg-group.co.za/wp-content/uploads/2024/05/unpluggit-High-res-logo.png" alt="Client 8" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="services" class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
